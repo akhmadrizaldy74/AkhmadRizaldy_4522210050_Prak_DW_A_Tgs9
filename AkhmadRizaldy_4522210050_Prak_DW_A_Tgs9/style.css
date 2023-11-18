@@ -1,0 +1,40 @@
+body {
+    background-color:#f6ff00 ;
+}
+#slider {
+    margin: 20px auto;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+   }
+   #slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: opacity 0.5s;
+   }
+   #slider img.active {
+    display: block;
+    opacity: 1;
+   }
+   #slider-controls {
+    text-align: center;}
+    
+.slider-controls {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px;
+    border: 3px solid #eb2f05;
+    border-radius: 10px;
+}
+
+.slider-controls:hover {
+    background-color: gray;
+}
+
+.slider-controls.active {
+    background-color: gray ; 
+    color: #FFC5C5 ; 
+}
