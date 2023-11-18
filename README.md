@@ -1,21 +1,52 @@
 # AkhmadRizaldy_4522210050_Prak_DW_A_Tgs9
 
-Mata Kuliah Desain Web
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-Buatkan kodenya di kode editor favorit kalian
-Jalankan di web browser favorit
-Buka inspect element dan lihat consolenya
-Jelaskan secara terstruktur maksud dari HTML, CSS, dan JavaScriptnya.
-Lampirkan printscreen halaman web kalian.
+# Folder config file
+Desktop.ini
 
-HTML
-DOCTYPE and HTML Tag
-Defines the HTML version and opens the <html> tag.
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-Head Section
-Contains metadata such as character set, viewport, and page title.
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-<meta charset="UTF-8">: Sets the character set to UTF-8.
-<meta name="viewport" content="width=device-width, initial-scale=1.0">: Adjusts the page display for mobile devices.
-<title>Image Slider</title>: Sets the page title.
-<link rel="stylesheet" href="style.css">: Links to an external CSS file
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+.idea
+/.vs
